@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 375px) {
+  .max-w-375 {
+    left: 1.75rem
+  }
+}
